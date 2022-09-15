@@ -96,3 +96,18 @@ hr{
     color:#737373;
     font-weight: bold;
 }
+/* section */
+.section{
+    padding: 2rem 0rem;
+}
+.section h1{
+    text-align: center;
+}
+
+.sec-offwhite{
+    padding: 2rem 0rem;
+    background-color:#d1d5db;
+}
+.sec-offwhite h1{
+    text-align: center;
+}
