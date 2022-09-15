@@ -51,6 +51,7 @@ hr{
     padding: 0rem 1rem;
     display: inline
 }
+/* nav */
 
 .list3{
     list-style: none;
@@ -77,5 +78,21 @@ hr{
     padding: 1rem 1rem;
 }
 .navigation .link-active{
+    font-weight: bold;
+}
+
+/* header */
+.hero{
+    padding: 2rem;
+}
+.hero .hero-image{
+    max-width: 350px;
+    padding: 2rem 0rem;
+    display: block;
+    margin: auto;
+} 
+.hero .hero-heading{
+    font-size: 2rem;
+    color:#737373;
     font-weight: bold;
 }
