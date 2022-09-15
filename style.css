@@ -54,14 +54,14 @@ hr{
 
 .list3{
     list-style: none;
-    padding: 1rem 1rem;
+    padding: 5rem 1rem;
     display: inline;
 }
 
 .navigation{
     background-color: #6366f1;
     color: white;
-    text-align: right;
+    text-align: center;
 }
 
 .link2{
