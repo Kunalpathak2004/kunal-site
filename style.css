@@ -1,65 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 
-body{
+body {
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
 }
 
-hr{
+hr {
     margin: 2rem 0rem;
 }
+
 /* container */
 
-.container{
+.container {
     padding-left: 1 rem;
     padding-right: 1 rem;
     padding-top: 2 rem;
     padding-bottom: 2 rem;
 }
+
 /* padding is a term or the attribute from css box model. The css box model has margin,border,padding,content */
 
 
-.container-center{
+.container-center {
     padding-left: 1 rem;
     padding-right: 1 rem;
     max-width: 600px;
     margin: auto;
 
 }
+
 /* links */
-.primary-link{
-   background-color: #6366f1;
-   color: white;
+.primary-link {
+    background-color: #6366f1;
+    color: white;
     padding: 0.5rem 1rem;
     text-decoration: none;
     border-radius: 0.5rem;
 
 }
 
-.secondary{
+.secondary {
     color: #6366f1;
     border: 1px dotted #6366f1;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
+
 /* lists */
-.list1{
+.list1 {
     list-style: none;
 }
 
-.list2{
+.list2 {
     list-style: none;
     padding: 0rem 1rem;
     display: inline
 }
+
 /* nav */
 
-.list3{
+.list3 {
     list-style: none;
     padding: 5rem 1rem;
     display: inline;
 }
 
-.navigation{
+.navigation {
     background-color: #6366f1;
     color: white;
     text-align: center;
@@ -67,68 +73,82 @@ hr{
     border-bottom-left-radius: 1rem;
 }
 
-.nav-brand{
+.nav-brand {
     font-weight: bold;
     font-size: 1.3rem;
 }
 
-.link2{
+.link2 {
     text-decoration: none;
     color: white;
     padding: 1rem 1rem;
 }
-.navigation .link-active{
+
+.navigation .link-active {
     font-weight: bold;
 }
 
 /* header */
-.hero{
+
+.header{
+    text-align: center;
+}
+.hero {
     padding: 2rem;
 }
-.hero .hero-image{
+
+.hero .hero-image {
     max-width: 350px;
     padding: 2rem 0rem;
     display: block;
     margin: auto;
-} 
-.hero .hero-heading{
+}
+
+.hero .hero-heading {
     font-size: 2rem;
-    color:#737373;
+    color: #737373;
     font-weight: bold;
-}
-/* section */
-.section{
-    padding: 2rem 0rem;
-}
-.section h1{
     text-align: center;
 }
 
-.sec-offwhite{
+/* section */
+.section {
     padding: 2rem 0rem;
-    background-color:#d1d5db;
 }
-.sec-offwhite h1{
+
+.section h1 {
+    text-align: center;
+}
+
+.sec-offwhite {
+    padding: 2rem 0rem;
+    background-color: #d1d5db;
+}
+
+.sec-offwhite h1 {
     text-align: center;
 }
 
 /* footer */
-.footer{
+.footer {
     padding: 2rem 2rem;
     background-color: black;
     text-align: center;
 }
-.footer-heading{
+
+.footer-heading {
     color: white;
     font-weight: bold;
     padding: 1rem 0rem;
-    
+
 }
-.linkF{
+
+.linkF {
     text-decoration: none;
     color: white;
 }
-.footer-list{
+
+.footer-list {
     display: inline;
     padding: 1rem 1rem;
 }
