@@ -13,9 +13,6 @@ body{
 }
 /* padding is a term or the attribute from css box model. The css box model has margin,border,padding,content */
 
-:root{
-    --primary-color: #6366f1;
-}
 
 .container-center{
     padding-left: 1 rem;
@@ -26,7 +23,17 @@ body{
 }
 /* links */
 .primary-link{
-    color: #6366f1;
+   background-color: #6366f1;
+   color: white;
     padding: 0.5rem 1rem;
     text-decoration: none;
+    border-radius: 0.5rem;
+
+}
+
+.secondary{
+    color: #6366f1;
+    border: 1px dotted #6366f1;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
 }
