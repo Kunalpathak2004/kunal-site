@@ -49,5 +49,23 @@ hr{
 .list2{
     list-style: none;
     padding: 0rem 1rem;
+    display: inline
+}
+
+.list3{
+    list-style: none;
+    padding: 1rem 1rem;
     display: inline;
+}
+
+.navigation{
+    background-color: #6366f1;
+    color: white;
+    text-align: right;
+}
+
+.link2{
+    text-decoration: none;
+    color: white;
+    padding: 1rem 1rem;
 }
