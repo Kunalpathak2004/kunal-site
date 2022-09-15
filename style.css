@@ -111,3 +111,24 @@ hr{
 .sec-offwhite h1{
     text-align: center;
 }
+
+/* footer */
+.footer{
+    padding: 2rem 2rem;
+    background-color: black;
+    text-align: center;
+}
+.footer-heading{
+    color: white;
+    font-weight: bold;
+    padding: 1rem 0rem;
+    
+}
+.linkF{
+    text-decoration: none;
+    color: white;
+}
+.footer-list{
+    display: inline;
+    padding: 1rem 1rem;
+}
