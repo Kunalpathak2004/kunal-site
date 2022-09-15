@@ -49,4 +49,5 @@ hr{
 .list2{
     list-style: none;
     padding: 0rem 1rem;
+    display: inline;
 }
