@@ -39,7 +39,7 @@ hr {
 
 }
 
-.secondary {
+.secondary-link {
     color: #6366f1;
     border: 1px dotted #6366f1;
     text-decoration: none;
@@ -90,9 +90,10 @@ hr {
 
 /* header */
 
-.header{
+.header {
     text-align: center;
 }
+
 .hero {
     padding: 2rem;
 }
@@ -151,4 +152,14 @@ hr {
 .footer-list {
     display: inline;
     padding: 1rem 1rem;
+}
+
+/* small */
+.small {
+    padding: 1rem;
+    margin: auto;
+}
+
+.btn-links {
+    padding: 1rem;
 }
